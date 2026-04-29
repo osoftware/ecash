@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "ecash": {
+      "source": "alitayin/ecashskill",
+      "sourceType": "github",
+      "skillPath": "plugins/ecashskill/skills/ecashskill/SKILL.md",
+      "computedHash": "45dec9016893bce4f30a76f0a674a05d3a98e56135bccc541bf4b165b257ca3c"
+    }
+  }
+}
