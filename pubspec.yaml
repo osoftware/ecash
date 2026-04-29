@@ -1,21 +1,31 @@
 name: ecash
 description: "eCash (XEC) SDK for Flutter"
 version: 0.0.1
-homepage:
+homepage: https://e.cash
+repository: https://github.com/osoftware/ecash
 
 environment:
   sdk: ^3.11.4
   flutter: ">=1.17.0"
 
 dependencies:
+  fixnum: ^1.1.1
   flutter:
     sdk: flutter
   protobuf: ^6.0.0
+  http: ^1.1.0
+  web_socket_channel: ^3.0.3
+  freezed_annotation: ^3.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  integration_test:
+    sdk: flutter
   flutter_lints: ^6.0.0
+  test: ^1.30.0
+  freezed: ^3.2.5
+  build_runner: ^2.15.0
 
 
 flutter:

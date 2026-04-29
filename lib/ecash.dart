@@ -1,5 +1,11 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+/// eCash (XEC) Dart SDK
+library;
+
+// Export Chronik client
+export 'chronik/client.dart';
+export 'chronik/types.dart';
+export 'chronik/endpoints.dart';
+export 'chronik/ws_endpoint.dart';
+export 'chronik/utils.dart';
+export 'chronik/validation.dart';
+export 'chronik/failover_proxy.dart';
